@@ -18,4 +18,10 @@ column[random2] = "X"
 guess = str(input("Please enter a column and a row and sepreate them with comma."))
 
 split_guess = guess.split(",")
-if split_guess[0] ==
+if split_guess[0] == random1:
+    if split_guess[1] ==random2:
+        print("Congrats! You have found the trasure!")
+    else:
+        print("You haven't found the treasure")
+else:
+    print("You haven't found the treasure")
